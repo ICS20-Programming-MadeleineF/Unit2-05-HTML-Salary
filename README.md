@@ -1,1 +1,1 @@
-[![GitHub's Super Linter](https://github.com/ICS20-Programming-MadeleineF/Unit2-05-HTML-Salary/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/<OWNER>/<REPOSITORY>ICS20-Programming-MadeleineF/Unit2-05-HTML-Salary/actions)
+[![GitHub's Super Linter](https://github.com/ICS20-Programming-MadeleineF/Unit2-05-HTML-Salary/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS20-Programming-MadeleineF/Unit2-05-HTML-Salary/actions)
