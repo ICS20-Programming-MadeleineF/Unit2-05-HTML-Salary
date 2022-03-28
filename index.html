@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--ICS20-Unit2-05-HTML-Salary -->
+<html>
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Ms Raffin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+      <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Salary, with a JS file</title>
+  </head>
+  <body>
+    <!-- JS link -->
+    <script src="./js/script.js"></script>
+    <h1>Salary, with a JS file</h1>
+    <p>
+      <h3>Please enter the following:</h3>
+      <form action="javascript:payClicked()">
+        <label for="Hours">Number of Hours Worked:</label>
+        <input type="number" step="any" id="hours" placeholder="Hours"><br><br>
+        <label for="hourly-rate">Hourly Rate: $</label>
+        <input type="number" step="any" id="rate" placeholder="Rate"><br><br>
+        <input type="submit" value="Pay">
+      </form>
+    </p>
+		<!--  user information will be displayed -->
+		<div id="display-results">
+    	<div id="total-earned"></div>
+			<div id="tax"></div>
+		</div>
+    <!-- button -->
+     <button onclick="myButtonClicked()">Click here</button>
+  </body>
+</html>
