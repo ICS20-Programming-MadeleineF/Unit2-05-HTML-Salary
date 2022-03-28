@@ -10,7 +10,7 @@
 const TAX_BRACKET = 0.1805
 
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates salery and that stuff
  */
 function payClicked () {
   // get user input
@@ -26,6 +26,8 @@ function payClicked () {
   document.getElementById('total-earned').innerHTML = "You will get paid $" + total_earned.toFixed(2)
   document.getElementById('tax').innerHTML = "The government will take (too much) $ "+ tax.toFixed(2) 
 }
+
+// button
 function myButtonClicked() {
         alert("Don't pay the tax. The government is stealing your hard earned money. The government will take your of your precious, precious money.")
-      }
+}
