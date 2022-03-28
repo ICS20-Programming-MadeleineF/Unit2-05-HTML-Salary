@@ -1,0 +1,34 @@
+body{
+  background-color: #55CDFC;
+  text-align:center;
+}
+
+h1{
+  color:#FFFFFF;
+  background-color: #F7A8B8;
+  padding:15px;
+}
+
+h3{
+  color:#FFFFFF;
+}
+
+label{
+  color:#FFFFFF;
+  background-color:#F7A8B8; 
+}
+
+div{
+  color:#FFFFFF;
+  background-color:#F7A8B8; 
+}
+
+input{
+  color:#FFFFFF;
+  background-color:#F7A8B8;
+}
+
+button{
+  color:#FFFFFF;
+  background-color:#F7A8B8;
+}
